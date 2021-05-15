@@ -16,12 +16,12 @@ While prevalent, diagnosing pneumonia in a CXR accurately is difficult. Expert r
 
 Training data: 1145 Pneumonia CXRs and 1280 Normal CXRs. Every CXR is a 1024 X 1024 image in the PNG format.
 The **labels for each CXR were extracted using an NLP label extractor from corresponding radiology reports.**   
-To download the dataset: https://drive.google.com/file/d/1d_93d9oFNRBK9Vg6BRxs9wvRbKtNTylY/view?usp=sharing
+**To download the dataset**: https://drive.google.com/file/d/1d_93d9oFNRBK9Vg6BRxs9wvRbKtNTylY/view?usp=sharing
 
 
 ----------------------
 Used a pretrained weights of the [ChexNet](https://stanfordmlgroup.github.io/projects/chexnet/) a **121 densely connected convolutional neural network** and use transfer learning to build a model.  
-Weights file can be found [here](https://www.kaggle.com/theewok/chexnet-keras-weights)  
+**Pretrained Weights file** can be found [here](https://www.kaggle.com/theewok/chexnet-keras-weights)  
 
 -----------------------
 ### Results of Hackathon
